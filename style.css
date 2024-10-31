@@ -1,24 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #3234a0;  
-    color: white;
-       h1{font-style: italic;}
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #CBDCEB;  
+    color: #608BC1;
        
 }
 
-button {
-    background-color: white;
-    
-}
+
 a {
-    color: black;
+    color: white;
     font-style: Montserrat;
     line-height: 2;
+    font-weight: bold;
+}
 
+h1 {
+    font-family: "Krona One", sans-serif;
 }
 
 .titulo-destaque {
-    color: #D8D2C2;
+    font-size: 30px;
+    color: #133E87;
     font-weight: bold;
-    border: 1px solid #D8D2C2;
 }
+
+.titulo-blog {
+    font-size: 30px;
+     color: #133E87;
+}
+
+.titulo-alto{       
+    margin-top: 5%;
+    margin-left: 17%;
+    color: #133E87;
+}
+
+ .texto-principal{
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #608BC1;
+    font-weight: bold;
+ }
  
+.pe {
+    color: #133E87;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    margin-left: 17%;
+}
+
+ .apresentacao {
+    margin: 5% 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+ }
+
+ .apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 615px;
+ }
+
+ .apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .apresentacao__links__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-color: #133E87;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;    
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    box-shadow: 5px 5px #4A628A;
+    transition: transform .2s;
+ }
+
+ .apresentacao__links__link:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+ }
+
+ .image {
+    margin-right: 20%;
+    border-color: #133E87;
+    border-style: outset;
+    border-radius: 5px;
+ }
